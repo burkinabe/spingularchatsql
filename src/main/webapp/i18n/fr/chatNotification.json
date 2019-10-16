@@ -1,0 +1,27 @@
+{
+  "spingularchatsqlApp": {
+    "chatNotification": {
+      "home": {
+        "title": "ChatNotifications",
+        "createLabel": "Créer un nouveau Chat Notification",
+        "createOrEditLabel": "Créer ou éditer un Chat Notification",
+        "notFound": "Aucun Chat Notification trouvé"
+      },
+      "created": "Un nouveau Chat Notification a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Chat Notification avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Chat Notification avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Chat Notification {{ id }} ?"
+      },
+      "detail": {
+        "title": "Chat Notification"
+      },
+      "creationDate": "Creation Date",
+      "chatNotificationReason": "Chat Notification Reason",
+      "chatUser": "Chat User",
+      "chatInvitation": "Chat Invitation",
+      "chatRoom": "Chat Room",
+      "chatMessage": "Chat Message"
+    }
+  }
+}

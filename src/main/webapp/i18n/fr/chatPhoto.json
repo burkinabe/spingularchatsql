@@ -1,0 +1,24 @@
+{
+  "spingularchatsqlApp": {
+    "chatPhoto": {
+      "home": {
+        "title": "ChatPhotos",
+        "createLabel": "Créer un nouveau Chat Photo",
+        "createOrEditLabel": "Créer ou éditer un Chat Photo",
+        "notFound": "Aucun Chat Photo trouvé"
+      },
+      "created": "Un nouveau Chat Photo a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Chat Photo avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Chat Photo avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Chat Photo {{ id }} ?"
+      },
+      "detail": {
+        "title": "Chat Photo"
+      },
+      "creationDate": "Creation Date",
+      "image": "Image",
+      "chatUser": "Chat User"
+    }
+  }
+}
