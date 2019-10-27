@@ -14,6 +14,7 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { PageRibbonComponent } from './layouts/profiles/page-ribbon.component';
 import { ActiveMenuDirective } from './layouts/navbar/active-menu.directive';
 import { ErrorComponent } from './layouts/error/error.component';
+import { ChatService } from 'app/shared/chat/chat.service';
 
 @NgModule({
   imports: [
@@ -26,6 +27,7 @@ import { ErrorComponent } from './layouts/error/error.component';
     SpingularchatsqlAppRoutingModule
   ],
   declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent],
+  providers: [ChatService],
   bootstrap: [JhiMainComponent]
 })
 export class SpingularchatsqlAppModule {}
